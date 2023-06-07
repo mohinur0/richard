@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root{
+    --white: #FFFFFF;
+    --lightor: #A8A8A8;
+    --black: #000000;
+    --gray: #6B6B6B;
+    --number: #333333;
+    --GB:'GB', sans-serif;
+    --GB:'GR', sans-serif;
+    --bg:linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
+    linear-gradient(0deg, #CF0063, #CF0063);
+
+
+}
+
+body{
+    background: var(--bg);
+    color: var(--white);
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
