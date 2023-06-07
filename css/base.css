@@ -15,7 +15,7 @@
     --GB:'GB', sans-serif;
     --GB:'GR', sans-serif;
     --bg:linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%),
-    linear-gradient(0deg, #CF0063, #CF0063);
+    linear-gradient(0deg, #CF0063, #CF0063) ;
 
 
 }
@@ -30,4 +30,108 @@ body{
     width: 100%;
     padding: 0 15px;
     margin: 0 auto;
+}
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__menu{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 159px;
+}
+.header__menu-item {
+    padding: 32px 0;
+}
+.logo{
+    padding-left: 144px;
+    padding-top: 29px;
+}
+.header__menu-item a {
+    font-family: 'GR', sans-serif;
+font-size: 15px;
+font-weight: 400;
+line-height: 20px;
+color: var(--white);
+}
+.banner {
+    position: relative;
+    height: 800px;
+
+}
+.banner__wrap {
+    padding-top: 226px;
+    padding-left: 144px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.banner__bg{
+    position: absolute;
+    top: 60px;
+    right: 44px;
+    width: 40%;
+  
+
+}
+
+.banner__p {
+    font-family: 'GR', sans-serif;
+font-size: 30px;
+font-weight: 400;
+line-height: 44px;
+color: var(--white);
+padding-bottom: 25px;
+}
+.banner__title {
+    padding-bottom: 10px;
+    font-family: 'GR', sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 80px;   
+}
+.banner__link {
+    padding: 22px 34px;
+    background: #FC0A7E;
+    color: var(--white);
+    font-family: 'GP', sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+padding: 20px 40px;
+}
+
+
+.second {
+    position: relative;
+    height: 957px;
+}
+.second__wrap{
+    background: #1B1B1B;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+.second__title{
+font-family: 'GR', sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 2px;
+text-align: center;
+color: var(--lightor);
+padding-top: 100px;
+padding-bottom: 30px;
+}
+.second__p{
+    font-family: 'GR', sans-serif;
+font-size: 38px;
+font-weight: 400;
+line-height: 48px;
+color: var(--white);
+padding-bottom: 55px;
 }
